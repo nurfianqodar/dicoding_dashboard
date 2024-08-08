@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
 # Fungsi untuk memuat dan membersihkan dataset
 def load_and_clean_data():

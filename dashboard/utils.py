@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
-CSV_DIR = "../data/PRSA_Data_20130301-20170228/"
+CSV_DIR = "./data/PRSA_Data_20130301-20170228/"
 csv_filename_list = os.listdir(CSV_DIR)
 
 # Load dataframe
